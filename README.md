@@ -1,6 +1,6 @@
 # Pocket-AI
 
-![Pocket-AI](Pockect-AI/Pocket-ai.png)
+![Pocket-AI](Pocket-ai.png)
 This is a GUI for the ollama
 
 You will need:
