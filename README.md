@@ -1,5 +1,7 @@
 # Pocket-AI
 
+![Pocket-AI](url)
+
 This is a GUI for the ollama
 
 You will need:
