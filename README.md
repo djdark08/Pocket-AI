@@ -1,27 +1,51 @@
-# Pocket-AI
-
+# 🧠 Pocket-AI
 ![Pocket-AI](Pocket-ai.png)
 
-This is a GUI for the ollama
+A simple **Graphical User Interface (GUI)** for interacting with **Ollama** using **Python**, **Tkinter**, and **Pygame**.  
+This project provides an easy way to use locally hosted LLMs through a desktop interface.
 
-You will need:
--python
--pygame
--tkinter
+---
 
-For windows users:
-First you must install Windows Subsystem for Linux using: wsl--install
-once you install it open cmd then type "wsl". You will be ask for a
-username and password. After that you need to paste this into your terminal 
-inside wsl session "curl -fsSL https://ollama.com/install.sh | sh" after 
-the installation type "ollama run llama3" in the same terminal and wait for
-the LLM to be downloaded into your computer. After that run the "main.py" using python.
+## 🧰 Requirements
+- **Python 3.8+**
+- **Tkinter**
+- **Pygame**
 
-For linux users:
-skip the wsl installation just paste the "curl -fsSL https://ollama.com/install.sh | sh"
-in your terminal and then type "ollama run llama3" and wait for your LLM to download. 
-After downloading just run the "main.py" using python.
+---
 
-NOTE: All files must be in the same directory in order for it to work.
+## 🪟 For Windows Users
+
+### 1️⃣ Install Windows Subsystem for Linux (WSL)
+Open terminal and run:
+```bash
+wsl --install
+```
+After installation completes:
+```cmd
+wsl
+```
+Enter a username and password when prompted.
+
+###2️⃣ Install Ollama inside WSL
+
+Once inside your WSL terminal, run:
+```cmd
+curl -fsSL https://ollama.com/install.sh | sh
+```
+Then download and start the LLM:
+```cmd
+ollama run llama3
+```
+Wait for the model to finish downloading.
+
+### 3️⃣ Run the GUI
+After setup, go back to your project directory and run:
+```cmd
+python main.py
+```
+# ⚠️ Important Note
+All files must be located in the same directory for the program to function correctly.
+
+
 
 
